@@ -1,0 +1,93 @@
+body {
+  background: #1d1b1b;
+  color: white;
+}
+
+.flex-Container {
+  margin-top: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  cursor: pointer;
+}
+
+.shop-card-container {
+  position: relative;
+  width: 250px;
+  height: 450px;
+  margin-bottom: 20px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+  background: #ECEFF1;
+}
+
+.shop-card-container:hover {
+  border: 1px solid #3d3d3d;
+}
+
+.shop-card-container:hover p {
+  top: 270px;
+}
+
+.shop-card-container p {
+  margin-bottom: 0;
+}
+
+.shop-card-image img {
+  height: 300px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.shop-price {
+  position: absolute;
+  top: 276px;
+  background: white;
+  margin-left: 18px;
+}
+
+.shop-desription {
+  margin: 20px;
+}
+
+svg {
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.product-stylist {
+  color: #616161;
+  margin-bottom: 7px !important;
+  font-size: 15px;
+}
+
+.shoping-bag {
+  left: 10px;
+  top: 10px;
+  color: #ff0464;
+}
+
+.about-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: cente;
+      -ms-flex-pack: cente;
+          justify-content: cente;
+  margin-top: 8rem;
+  text-align: center;
+}
+
+button {
+  display: inline-block;
+}
+/*# sourceMappingURL=app.css.map */
